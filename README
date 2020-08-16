@@ -1,0 +1,27 @@
+Madison London
+
+How the program works: 
+
+    This program reads data from https://madisonlondon.github.io/mlbsalarydata.github.io/ and uses pandas, a software library, 
+    to organize the data and store it in a DataFrame. The program then stores the date and time at which the data was pulled. 
+    Next, the program will iterate through the column of salaries, first checking if the value at the current index is not empty. 
+    Then, given the condition that we are working with a syntactically correct monetary value, we will remove the dollar sign(s) 
+    and comma(s) to store the salary as a float. We find any outliers in the dataset using IQR and then calculate the average. 
+    Finally, the program will print its findings. 
+
+How to run the program: 
+
+    Simply download and unzip the code to your desired location. Then navigate to that directory and run the following command in 
+    your terminal:
+
+    python3 solution.py
+
+Output: 
+
+    The program outputs the average value of the salaries as well as if there are any outliers. After this output, given the condition
+    that there are outliers, the user will have the option to decide whether or not they want to see the outliers listed. 
+
+Sources: 
+
+I used the pandas documentation (https://pandas.pydata.org/pandas-docs/version/0.23.4/index.html) as well as the Python datetime
+documentation (https://docs.python.org/3/library/datetime.html) for assistance during my completion of this task.
