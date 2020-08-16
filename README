@@ -11,7 +11,7 @@ How the program works:
 
 How to run the program: 
 
-    Simply download and unzip the code to your desired location. Then navigate to that directory and run the following command in 
+    Simply download the code to your desired location. Then navigate to that directory and run the following command in 
     your terminal:
 
     python3 solution.py
